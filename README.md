@@ -53,7 +53,7 @@ A DAap where users can create and fund their favourite campaigns.
 2. Navigate to the project directory:
 
    ```bash
-   cd project-name
+   cd Crowdfunding_DApp
    ```
 
 3. Install dependencies:
