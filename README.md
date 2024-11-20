@@ -29,6 +29,8 @@ A DAap where users can create and fund their favourite campaigns.
 
 [Live version](https://github.com/)
 
+[Smart Contract](https://github.com/Egnoel/Crowdfunding_smartContract)
+
 ## Technologies Used
 
 - ThirdWeb
