@@ -1,59 +1,105 @@
+# Crowdfunding DApp
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+A DAap where users can create and fund their favourite campaigns.
 
-# thirdweb-next-starter
+## Table of Contents
 
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+1. [Features](#features)
+2. [Demo](#demo)
+3. [Technologies Used](#technologies-used)
+4. [Installation and Setup](#installation-and-setup)
+5. [Environment Variables](#environment-variables)
+6. [Usage](#usage)
+7. [Future Enhancements](#future-enhancements)
+8. [Contributing](#contributing)
+9. [License](#license)
+10. [Contact](#contact)
 
-## Installation
+## Features
 
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+- View campaigns
+- Create campaign
+- Fund campaign
+- Create funding tiers
+- Edit campaign
 
-```bash
-  npx thirdweb create app --next
-```
+## Demo
+
+![Homepage](image.png)
+
+[Live version](https://github.com/)
+
+## Technologies Used
+
+- ThirdWeb
+- Nextjs
+- TailwindCSS
+
+## Installation and Setup
+
+### Prerequisites
+
+- Nodejs
+- Yarn
+
+### Steps to Install
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/project-name.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd project-name
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   yarn install
+   ```
+
+4. Set up environment variables:
+
+   Create a `.env` file and configure the necessary variables (explained below).
+
+5. Run the development server:
+
+   ```bash
+   yarn dev
+   ```
+
+6. Open the app in your browser:
+
+   ```bash
+   http://localhost:3000
+   ```
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file:
+- NEXT_PUBLIC_TEMPLATE_CLIENT_ID: client id that you get when you create a project on the thirdweb application.
 
-`CLIENT_ID`
+## Usage
 
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
+- Login with your wallet using the sepolia testnet account
 
-## Run locally
+## Contributing
 
-Install dependencies
+Instructions for contributing to the project.
 
-```bash
-yarn
-```
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Push the branch and create a pull request.
 
-Start development server
+## License
 
-```bash
-yarn dev
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Create a production build
+## Contact
 
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn start
-```
-
-## Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
+- **Email**: egnoel@hotmail.com
+- **Twitter**: [@egnoelgenio](https://twitter.com/egnoelgenio)
